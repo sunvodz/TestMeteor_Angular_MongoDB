@@ -1,0 +1,74 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/sunvo/.nvm/v0.10.32/bin/node',
+1 verbose cli   '/home/sunvo/.nvm/v0.10.32/bin/npm',
+1 verbose cli   'link',
+1 verbose cli   '@uirouter/core' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose install where,what [ '/home/sunvo/.nvm/v0.10.32/lib', [ '@uirouter/core' ] ]
+5 verbose cache add [ '@uirouter/core', null ]
+6 verbose cache add name=undefined spec="@uirouter/core" args=["@uirouter/core",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '@uirouter/core',
+7 verbose parsed url   path: '@uirouter/core',
+7 verbose parsed url   href: '@uirouter/core' }
+8 verbose cache add name="" spec="uirouter/core" args=["","uirouter/core"]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'uirouter/core',
+9 verbose parsed url   path: 'uirouter/core',
+9 verbose parsed url   href: 'uirouter/core' }
+10 silly lockFile d33396c4-uirouter-core uirouter/core
+11 verbose lock uirouter/core /home/sunvo/.npm/d33396c4-uirouter-core.lock
+12 info maybeGithub Attempting uirouter/core from git://github.com/uirouter/core
+13 silly lockFile 6697fe0e-git-github-com-uirouter-core git://github.com/uirouter/core
+14 verbose lock git://github.com/uirouter/core /home/sunvo/.npm/6697fe0e-git-github-com-uirouter-core.lock
+15 verbose addRemoteGit [ 'git://github.com/uirouter/core', 'master' ]
+16 verbose git clone git://github.com/uirouter/core Cloning into bare repository '/home/sunvo/.npm/_git-remotes/git-github-com-uirouter-core-6697fe0e'...
+16 verbose git clone git://github.com/uirouter/core fatal: remote error:
+16 verbose git clone git://github.com/uirouter/core   Repository not found.
+17 silly lockFile 6697fe0e-git-github-com-uirouter-core git://github.com/uirouter/core
+18 silly lockFile 6697fe0e-git-github-com-uirouter-core git://github.com/uirouter/core
+19 info maybeGithub Attempting uirouter/core from git+ssh://git@github.com:uirouter/core
+20 silly lockFile d6ce6aae-git-github-com-uirouter-core git@github.com:uirouter/core
+21 verbose lock git@github.com:uirouter/core /home/sunvo/.npm/d6ce6aae-git-github-com-uirouter-core.lock
+22 verbose addRemoteGit [ 'git@github.com:uirouter/core', 'master' ]
+23 error git clone git@github.com:uirouter/core Cloning into bare repository '/home/sunvo/.npm/_git-remotes/git-github-com-uirouter-core-d6ce6aae'...
+23 error git clone git@github.com:uirouter/core git@github.com: Permission denied (publickey).
+23 error git clone git@github.com:uirouter/core fatal: Could not read from remote repository.
+23 error git clone git@github.com:uirouter/core
+23 error git clone git@github.com:uirouter/core Please make sure you have the correct access rights
+23 error git clone git@github.com:uirouter/core and the repository exists.
+24 silly lockFile d6ce6aae-git-github-com-uirouter-core git@github.com:uirouter/core
+25 silly lockFile d6ce6aae-git-github-com-uirouter-core git@github.com:uirouter/core
+26 silly lockFile d33396c4-uirouter-core uirouter/core
+27 silly lockFile d33396c4-uirouter-core uirouter/core
+28 error addLocal Could not install uirouter/core
+29 error Error: ENOENT, stat 'uirouter/core'
+30 error If you need help, you may report this *entire* log,
+30 error including the npm and node versions, at:
+30 error     <http://github.com/npm/npm/issues>
+31 error System Linux 5.0.0-36-generic
+32 error command "/home/sunvo/.nvm/v0.10.32/bin/node" "/home/sunvo/.nvm/v0.10.32/bin/npm" "link" "@uirouter/core"
+33 error cwd /home/sunvo/IWA/projects/TestUserMeteor
+34 error node -v v0.10.32
+35 error npm -v 1.4.28
+36 error path uirouter/core
+37 error code ENOENT
+38 error errno 34
+39 verbose exit [ 34, true ]
