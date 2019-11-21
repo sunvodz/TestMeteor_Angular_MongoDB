@@ -16,3 +16,5 @@ $ meteor add angular-templates
 $ meteor npm install --save angular angular-meteor
 
 $ meteor
+
+http://localhost:3000/
