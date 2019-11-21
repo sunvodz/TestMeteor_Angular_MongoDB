@@ -19,5 +19,4 @@ $ meteor
 
 http://localhost:3000/
 
-MongoDB :
-https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#uninstall-mongodb-community-edition
+MongoDB : https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
