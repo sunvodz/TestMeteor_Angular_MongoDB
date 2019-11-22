@@ -1,7 +1,6 @@
 # TestMeteor_Angular_MongoDB
 
-
-![123](https://user-images.githubusercontent.com/42707869/69321671-1b2f9980-0c76-11ea-9ce4-188709ad016a.jpg)
+![1234](https://user-images.githubusercontent.com/42707869/69410815-6319f380-0d3e-11ea-9646-1105f906228d.png)
 
 $ curl https://install.meteor.com/ | sh
 
